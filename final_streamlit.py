@@ -13,7 +13,7 @@ df['month'] = df['date'].dt.month
 df['year'] = df['date'].dt.year
 
 st.set_page_config(layout="wide")
-st.title("제에에에에목")
+st.title("월간 일기 통계")
 
 st.sidebar.title("🗓️ 기간 선택")
 
