@@ -70,7 +70,7 @@ with col3:
 
 with col4:
     text_data = " ".join(filtered_df['Diary Content'].dropna().values)
-    wordcloud = WordCloud(width=800, height=400, background_color='white', font_path="C:/Windows/Fonts/malgun.ttf").generate(text_data)
+    wordcloud = WordCloud(width=800, height=400, background_color='white', font_path="./assets/NanumGothic-Regular.ttf").generate(text_data)
 
     fig4, ax = plt.subplots(figsize=(8, 4))
     ax.imshow(wordcloud, interpolation='bilinear')
