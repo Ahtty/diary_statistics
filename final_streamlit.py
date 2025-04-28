@@ -122,7 +122,7 @@ if st.sidebar.button("일기 요약 요청"):
 
 ---
 [일기 내용]
-{Diary Content}
+{report_data_str}
 ---
 
 당신은 심리학과 자기성찰을 전문으로 연구하는 고급 코치입니다.
