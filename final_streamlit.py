@@ -107,7 +107,7 @@ if st.sidebar.button("일기 요약 요청"):
 ---
 아래와 같이 작성해줘 
 
-{selected_month}월 한 달 간 일기 작성 일 수 : {len(filtered_df['date'].unique())}일
+{selected_month}월 한 달 간 일기 작성 수 : {len(filtered_df['date'].unique())}일
 주 일기 작성 시간대 : {filtered_df['Hour'].mode().iloc[0]}시
 추천할만한, 도움이 될만한 문구 또는 위로 문구
 당신이 많이 쓰는 키워드 : 자주 나오는 키워드
